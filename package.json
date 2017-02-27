@@ -1,0 +1,15 @@
+{
+  "name": "gametools",
+  "version": "0.1.0",
+  "description": "插件工具",
+  "main": "",
+  "dependencies": {
+    "co": "^4.6.0"
+  },
+  "devDependencies": {},
+  "author": "baina",
+  "license": "ISC",
+  "libs":{
+    "gradle":"__install/gradle-2.14.1/bin/gradle"
+  }
+}

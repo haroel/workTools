@@ -1,0 +1,27 @@
+{
+    "isUpdateVersion": true,
+    "line": "line1",
+    "server": "http://slots.cdn.dolphin-game.com/update/",
+    "modules": {
+        "10001": {
+            "initial": "1.0.0.0001",
+            "current": "1.0.0.0001"
+        },
+        "10002": {
+            "initial": "0",
+            "current": "1.0.0.0001"
+        },
+        "10003": {
+            "initial": "0",
+            "current": "1.0.0.0001"
+        },
+        "11001": {
+            "initial": "0",
+            "current": "1.0.0.0001"
+        },
+        "common": {
+            "initial": "1.0.0.0031",
+            "current": "1.0.0.0031"
+        }
+    }
+}

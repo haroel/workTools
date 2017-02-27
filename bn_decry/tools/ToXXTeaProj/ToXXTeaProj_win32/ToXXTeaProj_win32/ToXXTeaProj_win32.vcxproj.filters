@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\easylzma">
+      <UniqueIdentifier>{5d82f6f2-d927-409a-b6bf-9634a7bb4564}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\easylzma\pavlov">
+      <UniqueIdentifier>{0bb25202-1eb9-4f3f-88cd-8c8c7115f428}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\easylzma\easylzma">
+      <UniqueIdentifier>{3ba32fd4-5926-4849-b066-5f7e541e4c6f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\ToXXTea\easylzma\common.h">
+      <Filter>源文件\easylzma</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ToXXTea\easylzma\common_internal.h">
+      <Filter>源文件\easylzma</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ToXXTea\easylzma\decompress.h">
+      <Filter>源文件\easylzma</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ToXXTea\easylzma\lzip_header.h">
+      <Filter>源文件\easylzma</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ToXXTea\easylzma\lzma_header.h">
+      <Filter>源文件\easylzma</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ToXXTea\easylzma\simple.h">
+      <Filter>源文件\easylzma</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ToXXTea\easylzma\pavlov\7zCrc.h">
+      <Filter>源文件\easylzma\pavlov</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ToXXTea\easylzma\pavlov\Alloc.h">
+      <Filter>源文件\easylzma\pavlov</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ToXXTea\easylzma\pavlov\LzmaDec.h">
+      <Filter>源文件\easylzma\pavlov</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ToXXTea\easylzma\pavlov\LzmaLib.h">
+      <Filter>源文件\easylzma\pavlov</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ToXXTea\easylzma\pavlov\Types.h">
+      <Filter>源文件\easylzma\pavlov</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ToXXTea\Platform.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ToXXTea\xxtea.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ToXXTea\XXTeaUtil.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ToXXTea\easylzma\easylzma\common.h">
+      <Filter>源文件\easylzma\easylzma</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ToXXTea\easylzma\easylzma\compress.h">
+      <Filter>源文件\easylzma\easylzma</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ToXXTea\easylzma\easylzma\decompress.h">
+      <Filter>源文件\easylzma\easylzma</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ToXXTea\easylzma\pavlov\7zBuf.h">
+      <Filter>源文件\easylzma\pavlov</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ToXXTea\easylzma\pavlov\7zFile.h">
+      <Filter>源文件\easylzma\pavlov</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ToXXTea\easylzma\pavlov\7zVersion.h">
+      <Filter>源文件\easylzma\pavlov</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ToXXTea\easylzma\pavlov\Bcj2.h">
+      <Filter>源文件\easylzma\pavlov</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ToXXTea\easylzma\pavlov\Bra.h">
+      <Filter>源文件\easylzma\pavlov</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ToXXTea\easylzma\pavlov\CpuArch.h">
+      <Filter>源文件\easylzma\pavlov</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ToXXTea\easylzma\pavlov\LzFind.h">
+      <Filter>源文件\easylzma\pavlov</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ToXXTea\easylzma\pavlov\LzHash.h">
+      <Filter>源文件\easylzma\pavlov</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ToXXTea\easylzma\pavlov\LzmaEnc.h">
+      <Filter>源文件\easylzma\pavlov</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\ToXXTea\easylzma\common_internal.c">
+      <Filter>源文件\easylzma</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ToXXTea\easylzma\decompress.c">
+      <Filter>源文件\easylzma</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ToXXTea\easylzma\lzip_header.c">
+      <Filter>源文件\easylzma</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ToXXTea\easylzma\lzma_header.c">
+      <Filter>源文件\easylzma</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ToXXTea\easylzma\simple.c">
+      <Filter>源文件\easylzma</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ToXXTea\easylzma\pavlov\7zCrc.c">
+      <Filter>源文件\easylzma\pavlov</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ToXXTea\easylzma\pavlov\Alloc.c">
+      <Filter>源文件\easylzma\pavlov</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ToXXTea\easylzma\pavlov\LzmaDec.c">
+      <Filter>源文件\easylzma\pavlov</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ToXXTea\easylzma\pavlov\LzmaLib.c">
+      <Filter>源文件\easylzma\pavlov</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ToXXTea\main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ToXXTea\Platform.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ToXXTea\xxtea.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ToXXTea\XXTeaUtil.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ToXXTea\easylzma\compress.c">
+      <Filter>源文件\easylzma</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ToXXTea\easylzma\pavlov\7zBuf.c">
+      <Filter>源文件\easylzma\pavlov</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ToXXTea\easylzma\pavlov\7zBuf2.c">
+      <Filter>源文件\easylzma\pavlov</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ToXXTea\easylzma\pavlov\7zFile.c">
+      <Filter>源文件\easylzma\pavlov</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ToXXTea\easylzma\pavlov\7zStream.c">
+      <Filter>源文件\easylzma\pavlov</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ToXXTea\easylzma\pavlov\Bcj2.c">
+      <Filter>源文件\easylzma\pavlov</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ToXXTea\easylzma\pavlov\Bra.c">
+      <Filter>源文件\easylzma\pavlov</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ToXXTea\easylzma\pavlov\Bra86.c">
+      <Filter>源文件\easylzma\pavlov</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ToXXTea\easylzma\pavlov\BraIA64.c">
+      <Filter>源文件\easylzma\pavlov</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ToXXTea\easylzma\pavlov\LzFind.c">
+      <Filter>源文件\easylzma\pavlov</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ToXXTea\easylzma\pavlov\LzmaEnc.c">
+      <Filter>源文件\easylzma\pavlov</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
