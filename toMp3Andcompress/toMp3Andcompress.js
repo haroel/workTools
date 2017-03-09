@@ -4,13 +4,12 @@
 var fs = require('fs');
 var path = require('path');
 var child_process = require('child_process');
-var os = require("os");
+const os = require("os");
 
-const plibs = require("../plibs");
-
+const co = require("co");
+const fsEx = require("../fsEx");
 var spawn = child_process.spawn;
 var exec = child_process.exec;
-const os = require("os");
 
 var trace = console.log;
 
@@ -18,10 +17,7 @@ let targetDir = process.argv[2]; // 目标目录
 
 let lame_path = "lame";
 
-
-var which = require("which");
-
-let loopDir = plibs.loopDir;
+let loopDir = fsEx.loopDir;
 
 function transcodingFile( targetPath,desPath)
 {
@@ -77,7 +73,6 @@ let _hanlder = function *( dir )
             trace(`${filepath} 压缩成功`);
         }
     }
-    yield Promise.resolve(0);
 };
 
 let doHandler = function ( dir  ,isInCreator)
@@ -86,8 +81,7 @@ let doHandler = function ( dir  ,isInCreator)
     {
         return Promise.reject("dir is null");
     }
-
-    return plibs.runWithGenerator( _hanlder( dir ) );
+    return co.wrap( _hanlder  )(dir);
 };
 
 if (targetDir)
@@ -99,7 +93,17 @@ if (targetDir)
         trace(err);
     })
 }
-
-module.exports = doHandler;
+module.exports.setLamePath = function (value)
+{
+    lame_path = value;
+    if (os.platform() === "win32")
+    {
+        lame_path += "lame.exe";
+    }else
+    {
+        lame_path += "lame";
+    }
+};
+module.exports.transformAudio = doHandler;
 
 
